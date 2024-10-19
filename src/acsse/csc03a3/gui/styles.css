@@ -1,0 +1,64 @@
+Pane{
+	-fx-background-color: #E3FEE4;
+	-fx-background-radius: 10;
+}
+
+AnchorPane{
+	-fx-background-image: url("background3.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+Button{
+	-fx-background-color: #3DCB00;
+	-fx-border-color: #2F9E00;
+	-fx-border-width: 1;
+	-fx-border-radius: 8; 
+	-fx-background-radius: 8;
+}
+
+.text-field{
+	-fx-background-color: #E3FEE4;
+	-fx-border-color: #2F9E00;  
+    -fx-border-width: 1;  
+    -fx-border-radius: 5; 
+}
+
+.text-area{
+	-fx-background-color: #E3FEE4;
+	-fx-border-color: #2F9E00;  
+    -fx-border-width: 1;  
+    -fx-border-radius: 5; 
+}
+
+
+
+.text-field:focused {
+    -fx-border-color: #3DCB00;  
+    -fx-border-width: 1;  
+    -fx-border-radius: 5;
+    -fx-effect: none;
+}
+
+.text-area:focused {
+	-fx-background-color: #E3FEE4;
+    -fx-border-color: #3DCB00;  
+    -fx-border-width: 1;  
+    -fx-border-radius: 5;
+    -fx-effect: none;
+}
+
+#txtTitle{
+	-fx-fill: #2F9E00;
+}
+
+#listHistory{
+	-fx-background-radius: 8;
+}
+
+#listsView{
+	-fx-background-radius: 8;
+}
+
+

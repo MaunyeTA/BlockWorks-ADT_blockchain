@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="918.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="acsse.csc03a3.gui.ViewBlockchainController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" prefHeight="32.0" prefWidth="71.0" text="Back" />
+      <ListView fx:id="listsView" layoutX="17.0" layoutY="87.0" prefHeight="466.0" prefWidth="880.0" />
+      <Text fill="#515151" layoutX="626.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View blocks from my company only" />
+      <Button layoutX="481.0" layoutY="46.0" mnemonicParsing="false" onAction="#ViewALL" prefHeight="32.0" prefWidth="71.0" text="View all" />
+      <Button fx:id="btnSwitch" layoutX="825.0" layoutY="46.0" mnemonicParsing="false" onAction="#ViewOnlyFromMyCompany" prefHeight="32.0" prefWidth="71.0" text="Filter" />
+   </children>
+</AnchorPane>

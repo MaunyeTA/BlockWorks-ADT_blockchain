@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="txtHeader" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="918.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="acsse.csc03a3.gui.PendingRequestsController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" prefHeight="29.0" prefWidth="71.0" text="Back" />
+      <Pane layoutX="191.0" layoutY="33.0" prefHeight="500.0" prefWidth="550.0">
+         <children>
+            <Button layoutX="382.0" layoutY="39.0" mnemonicParsing="false" onAction="#GetRequest" prefHeight="27.0" prefWidth="87.0" text="Get Request" />
+            <TextField fx:id="txtID" layoutX="160.0" layoutY="84.0" prefHeight="26.0" prefWidth="309.0" />
+            <TextField fx:id="txtName" layoutX="159.0" layoutY="127.0" prefHeight="26.0" prefWidth="309.0" />
+            <TextField fx:id="txtSurname" layoutX="159.0" layoutY="171.0" prefHeight="26.0" prefWidth="309.0" />
+            <TextField fx:id="txtPosition" layoutX="159.0" layoutY="219.0" prefHeight="26.0" prefWidth="309.0" />
+            <TextField fx:id="txtStartDate" layoutX="159.0" layoutY="266.0" prefHeight="26.0" prefWidth="310.0" />
+            <TextField fx:id="txtEndDate" layoutX="159.0" layoutY="314.0" prefHeight="26.0" prefWidth="309.0" />
+            <TextArea fx:id="txtCommnet" layoutX="159.0" layoutY="355.0" prefHeight="68.0" prefWidth="310.0" />
+            <Button layoutX="187.0" layoutY="439.0" mnemonicParsing="false" onAction="#Approve" prefHeight="37.0" prefWidth="81.0" text="Approve" />
+            <Button layoutX="369.0" layoutY="439.0" mnemonicParsing="false" onAction="#Reject" prefHeight="37.0" prefWidth="81.0" text="Rejected" />
+            <Text fill="#4b4a4a" layoutX="60.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Candidate ID:" />
+            <Text fill="#4b4a4a" layoutX="60.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+            <Text fill="#4b4a4a" layoutX="61.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname:" />
+            <Text fill="#4b4a4a" layoutX="63.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Position:" />
+            <Text fill="#4b4a4a" layoutX="61.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Starting date:" />
+            <Text fill="#4b4a4a" layoutX="62.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="End date:" />
+            <Text fill="#4b4a4a" layoutX="59.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comment:" />
+            <Text layoutX="172.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check for pending requests">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtAlert" fill="RED" layoutX="22.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

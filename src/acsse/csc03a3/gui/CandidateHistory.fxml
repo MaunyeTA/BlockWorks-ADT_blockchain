@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="918.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="acsse.csc03a3.gui.CandidateHistoryController">
+   <children>
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" prefHeight="28.0" prefWidth="78.0" text="Back" />
+      <TextField fx:id="txtSearchPublicKey" layoutX="450.0" layoutY="63.0" prefHeight="34.0" prefWidth="310.0" />
+      <Button layoutX="792.0" layoutY="63.0" mnemonicParsing="false" onAction="#Search" prefHeight="34.0" prefWidth="108.0" text="Search" />
+      <ListView fx:id="listView" layoutX="17.0" layoutY="113.0" prefHeight="442.0" prefWidth="883.0" />
+      <Text fill="#3e3e3e" layoutX="380.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Public key:" />
+   </children>
+</AnchorPane>
